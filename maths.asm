@@ -2,8 +2,8 @@
 
 .model small           ; assembler directive to allocate memory
 .data                  ; data segment
-        a db 05h       ; a = 4
-        b db 03h       ; b = 2
+        a db 04h       ; a = 4
+        b db 02h       ; b = 2
 .code                  ; code segment
         mov ax, @data  ; initialize ds register
         mov ds, ax
