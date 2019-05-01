@@ -5,7 +5,7 @@
    str1 db "Enter n: $"                         ; message 1 to enter n
    str2 db 10, 13, "Enter r: $"                 ; message 2 to enter r
    str3 db 10, 13, "Error n<r $"                ; error message if n < r
-   str4 db 10, 13, "Factorial: $"               ; message 4 to print result
+   str4 db 10, 13, "nCr: $"                     ; message 4 to print result
    n db ?                                       ; to store n
    r db ?                                       ; to store r
    nn db ?                                      ; to store n factorial
