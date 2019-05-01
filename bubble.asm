@@ -32,8 +32,7 @@
             add si, 02h         ; increase si by two [16-bit]
             dec dx              ; decrease dx by one
           jnz innerloop         ; jump to innerloop if zero flag != 1
-        loop outerloop          ; jump to outerloop if cx != 0 and decrease
-                                ;                                 cx by one
+        loop outerloop          ; jump to outerloop if cx != 0 and decrease cx by one
         int 3h                  ; Breakpoint interrupt
         align 16                ; alignment of your output data                         
         end                     ; end directive
